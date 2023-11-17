@@ -1,4 +1,4 @@
-# Fire-Detection-using-YoloV5
+# Fire Detection Using YOLOV5
 
 ## Sample output
 
