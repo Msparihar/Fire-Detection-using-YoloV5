@@ -1,5 +1,9 @@
 # Fire Detection Using YOLOV5
 
+## Web application preview
+
+<img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/d6467dd6-19c3-4ae4-acdd-cbe5a6472e9e" width="1050" height="550">
+
 ## Sample output on Images
 
 <!-- ![val_batch2_labels_1](https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/ab75fb21-cad2-420a-aeb8-28f491931378)
