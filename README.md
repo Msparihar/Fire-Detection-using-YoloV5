@@ -1,6 +1,6 @@
 # Fire Detection Using YOLOV5
 
-## Web application preview
+## Application Interface
 
 <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/d6467dd6-19c3-4ae4-acdd-cbe5a6472e9e" width="1050" height="550">
 
