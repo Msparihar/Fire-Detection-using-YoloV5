@@ -26,103 +26,60 @@ The Fire Detection project offers the following features:
 
 <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/2cc488c7-98f0-4f9c-82a1-c23178a216de" width="600" height="300">
 
-## Steps to use this repository.
+## Installation
 
-### STEP 01- Create a conda environment after opening the repository
+To run this Fire Detection project locally, follow these steps:
 
-```bash
-conda create -n fire python=3.7 -y
-```
+1. Clone the Repository:
+    ```bash
+      git clone https://github.com/Msparihar/Fire-Detection-using-YoloV5.git
+    ```
 
-```bash
-conda activate fire
-```
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### STEP 02- install the requirements
+3. Run the App:
+   ```bash
+   python main.py
+   ```
+   
+## Contribution
 
-```bash
-pip install -r requirements.txt
-```
+Contributions to the Fire Detection project are welcome! If you'd like to contribute, please follow these steps:
 
-### STEP 03- run the app locally
+1. Fork the repository on GitHub.
 
-```bash
-python app.py
-```
+2. Create a new branch from the `main` branch.
 
-Now,
+3. Make your modifications and enhancements.
 
-```bash
-open up you local host and port
-```
+4. Test your changes thoroughly.
 
-# AWS-CICD-Deployment-with-Github-Actions
+5. Commit and push your changes to your forked repository.
 
-## 1. Login to AWS console.
+6. Submit a pull request to the main repository, describing your changes in detail.
 
-## 2. Create IAM user for deployment
+Please ensure your contributions adhere to the project's coding standards and guidelines.
 
-    #with specific access
+## Acknowledgments
 
-    1. EC2 access : It is virtual machine
+The Fire Detection project is built upon various open-source libraries and resources. I would like to express my gratitude to the developers and contributors of the following projects:
 
-    2. ECR: Elastic Container registry to save your docker image in aws
+- [Ultralytics](https://github.com/ultralytics/ultralytics)
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Roboflow](https://roboflow.com/)
 
+## License
 
-    #Description: About the deployment
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to the terms of the license.
 
-    1. Build docker image of the source code
+## Contact
 
-    2. Push your docker image to ECR
+If you have any questions, suggestions, or feedback regarding the AI Sonnets project, please contact the project maintainer at manishsparihar2020@gmail.com
 
-    3. Launch Your EC2
+<hr>
 
-    4. Pull Your image from ECR in EC2
-
-    5. Lauch your docker image in EC2
-
-    #Policy:
-
-    1. AmazonEC2ContainerRegistryFullAccess
-
-    2. AmazonEC2FullAccess
-
-## 3. Create ECR repo to store/save docker image
-
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/waste
-
-## 4. Create EC2 machine (Ubuntu)
-
-## 5. Open EC2 and Install docker in EC2 Machine:
-
-    #optinal
-
-    sudo apt-get update -y
-
-    sudo apt-get upgrade
-
-    #required
-
-    curl -fsSL https://get.docker.com -o get-docker.sh
-
-    sudo sh get-docker.sh
-
-    sudo usermod -aG docker ubuntu
-
-    newgrp docker
-
-# 6. Configure EC2 as self-hosted runner:
-
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
-
-# 7. Setup github secrets:
-
-    AWS_ACCESS_KEY_ID=
-
-    AWS_SECRET_ACCESS_KEY=
-
-    AWS_REGION = us-east-1
-
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-
-    ECR_REPOSITORY_NAME = simple-app
+I really appreciate your interest in this project and hope you found this project helpful! Keep Exploring!
