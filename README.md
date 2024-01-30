@@ -1,18 +1,30 @@
 # Fire Detection Using YOLOV5
 
-## Application Interface
+This project explores the creative use of the YOLOv5 model, pushing its boundaries beyond object detection to tackle the critical challenge of fire identification.
 
-<img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/d6467dd6-19c3-4ae4-acdd-cbe5a6472e9e" width="1050" height="550">
+## Overview
+
+This project is a user-friendly web application that leverages YoloV5 to identify fire in images or videos accurately. With a deep learning model trained on a dataset of 10,000+ images, this project highlights the practical side of using AI in the real world.
+
+## Features
+
+The Fire Detection project offers the following features:
+
+1. **Fire Detection:**
+
+2. **User-friendly Interface:**
+
+## Demo
+
+![fire](https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/84fc40f8-f87e-4962-b0ef-c454cd341842)
+
+## Interface
+
+<img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/d6467dd6-19c3-4ae4-acdd-cbe5a6472e9e" width="600" height="300">
 
 ## Sample output on Images
 
-| <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/ab75fb21-cad2-420a-aeb8-28f491931378" width="300" height="200"> | <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/2ca04141-3fa7-48df-9496-7e2857cf933c)" width="300" height="200"> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/2cc488c7-98f0-4f9c-82a1-c23178a216de" width="300" height="200"> | <img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/6cc15df9-4afc-40ca-a77b-1e48caefbe9b" width="300" height="200">  |
-
-## Sample output on Video
-
-![fire](https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/84fc40f8-f87e-4962-b0ef-c454cd341842)
+<img src="https://github.com/Msparihar/Fire-Detection-using-YoloV5/assets/75237981/2cc488c7-98f0-4f9c-82a1-c23178a216de" width="600" height="300">
 
 ## Steps to use this repository.
 
