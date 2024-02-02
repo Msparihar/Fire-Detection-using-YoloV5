@@ -78,7 +78,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to modify a
 
 ## Contact
 
-If you have any questions, suggestions, or feedback regarding the AI Sonnets project, please contact the project maintainer at manishsparihar2020@gmail.com
+If you have any questions, suggestions, or feedback regarding this project, please contact the project maintainer at manishsparihar2020@gmail.com
 
 <hr>
 
